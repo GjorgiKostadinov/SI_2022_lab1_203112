@@ -1,0 +1,40 @@
+log -1
+
+git init
+git sattus
+git add README.txt
+git status
+git add shopping_list.txt
+git status
+git add -a -m "dodadena e shopping list"
+$ git commit
+git -- global user.name "XG27"
+git -- global user.email "gorgikos27@gmail.com"
+$ git remote add origin https://github.com/XG27/SI_2022_lab1_203112.git
+
+git push -u origin master
+git branch GorgiKostadinov/granka1
+git branch GorgiKostadinov/granka2
+git commit -m "Dodadeni se 2 granki"
+git log
+git push -u origin GOrgiKostadinov/Granka1
+git push -u origin GOrgiKostadinov/Granka2
+git checkout GorgiKostadinov/granka1
+
+
+Log 2 - 
+
+git add shopping_list.txt
+git commit -a -m "Dodadeni se novi vrednosti na produkltite"
+git push -u origin GorgiKostadinov/granka1
+git checkout master 
+git checkout GorgiKostadinov/granka2
+git commit -a - m "modify item #4 and add item #6"
+git push -u origin GorgiKostadinov/granka2
+git checkout master
+git merge GorgiKostadinov/granka1
+
+git merge GorgiKostadinov/granka2 
+
+
+Gorgi Kostadinov 203112
