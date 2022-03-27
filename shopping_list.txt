@@ -1,5 +1,5 @@
-Pileski stek
-Domati
-Banana
-Jajca
-Kompir
+Pileski stek  x10
+Domati x5
+Banana x30
+Jajca x25
+Kompir x55
